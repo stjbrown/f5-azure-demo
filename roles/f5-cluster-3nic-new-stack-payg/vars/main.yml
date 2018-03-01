@@ -8,7 +8,7 @@ location: eastus
 
 #F5 Intance
 #adminUsername:
-adminPassword: ChangeMeNow123
+adminPassword: "{{ lookup('env', 'AZURE_PW') }}"
 #dnsLabel:
 #instanceName:
 #instanceType: 
